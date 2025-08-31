@@ -9,3 +9,8 @@ terraform {
     }
   }
 }
+
+# provider block
+provider "aws" {
+  region = "eu-west-1"
+}
