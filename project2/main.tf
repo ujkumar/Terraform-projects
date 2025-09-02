@@ -8,6 +8,6 @@ resource "aws_instance" "ec2_instance" {
   
 
 tags = {
-    Name = "Ec2 Resource Provisioning using terraform...."
+    Name = "Ec2 Resource Provisioning using terraform.."
   }
 }
